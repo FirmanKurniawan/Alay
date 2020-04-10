@@ -35,7 +35,7 @@
 		},
 		methods: {
 			generateText(){
-				this.hasil = this.kata.replace(/[a,u,e,o]/g, 'i')
+				this.hasil = this.kata.replace(/[a,u,e,o]/gi, 'i')
 			},
 			copyTestingCode () {
 				let testingCodeToCopy = document.querySelector('#testing-code')
